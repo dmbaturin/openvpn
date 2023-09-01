@@ -8,6 +8,9 @@ For bigger scale setup setting up a PKI (e.g. via easy-rsa) is still recommended
 Both server and client configuration can be further modified to customise the
 setup.
 
+Currently, OpenVPN only supports SHA256 fingerprints, trying to use other types will cause
+configuration errors.
+
 Server setup
 ------------
 1. Install openvpn
